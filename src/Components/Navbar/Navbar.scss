@@ -1,0 +1,32 @@
+.navbar {
+    background-color: black;
+    padding: 0.5rem;
+
+    &-inp {
+        width: 150px;
+        padding: 7px;
+        border-radius: 5px;
+        margin-left: 70%;
+    }
+
+    &-btn {
+        background-color: rgba(0, 255, 255, 0);
+        border-color: green;
+        color: green;
+        padding: 7px;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+}
+
+.App {
+    background-color: #20c99651;
+    height: 100vh;
+
+    .container {
+        width: 1024px;
+        margin: auto;
+
+    }
+}
